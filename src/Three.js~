@@ -10,8 +10,6 @@ if ( typeof module === 'object' ) {
 
 	module.exports = THREE;
 
-} else if(typeof define!== "undefined"){
-    define("three", function(){ return THREE });
 }
 
 // polyfills
